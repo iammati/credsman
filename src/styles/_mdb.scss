@@ -1,0 +1,18 @@
+/**
+ * Adjustment to the Material Design Bootstrap package
+ */
+
+.form-outline .form-control {
+    border: 1px solid #bdbdbd !important;
+
+    &:focus,
+    &.active {
+        border-color: #1266f1 !important;
+
+        & ~ .form-label {
+            color: #1266f1;
+            background-color: #fff !important;
+            z-index: 3;
+        }
+    }
+}

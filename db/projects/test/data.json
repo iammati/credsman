@@ -1,0 +1,30 @@
+[
+    {
+        "name": "example.app",
+        "envName": "Production",
+        "datas": [
+            {
+                "name": "Frontend .htaccess",
+                "username": "frontend",
+                "password": "test"
+            },
+            {
+                "name": "TYPO3 Backend",
+                "username": "admin",
+                "password": "password"
+            },
+            {
+                "name": "SSH",
+                "host": "p12345.mittwaldserver.info",
+                "username": "p12345",
+                "password": "somePassword!"
+            },
+            {
+                "name": "Database",
+                "host": "db1234.mydbserver.com",
+                "username": "admin",
+                "password": "password"
+            }
+        ]
+    }
+]

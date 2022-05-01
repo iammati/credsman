@@ -1,0 +1,29 @@
+{
+    "name": "iammati/credsman",
+    "authors": [
+        {
+            "name": "Mati",
+            "email": "mati_01@icloud.com",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "league/flysystem": "^3.0",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.25",
+        "symfony/var-dumper": "^6.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        }
+    },
+    "extra": {
+        "composer-normalize": {
+            "indent-size": 4,
+            "indent-style": "space"
+        }
+    }
+}

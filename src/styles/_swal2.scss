@@ -1,0 +1,7 @@
+body.swal2-toast-shown .swal2-container {
+    width: 450px !important;
+
+    &.swal2-top-end {
+        top: 70px !important;
+    }
+}
